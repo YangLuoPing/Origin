@@ -129,6 +129,14 @@ public class CodeGenerateOne extends FileObjImp implements IGenerate {
 		log.info(" ----- ---- generate  code  success =======> 表名：" + this.tableVo.getTableName() + " ");
 	}
 
+	/**
+	 * 
+	 * 2020-03-16
+	 * @param projectPath
+	 * @param templatePath
+	 * @param stylePath
+	 * @throws Exception
+	 */
 	@Override
 	public void generateCodeFile(String projectPath, String templatePath, String stylePath) throws Exception {
 		if (projectPath != null && !"".equals(projectPath)) {
